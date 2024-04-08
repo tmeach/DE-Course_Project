@@ -1,0 +1,12 @@
+de_camp:
+  outputs:
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      threads: 1
+
+    prod:
+      type: duckdb
+      path: "md"
+
+  target: dev
